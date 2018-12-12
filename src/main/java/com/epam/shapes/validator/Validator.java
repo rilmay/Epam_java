@@ -27,7 +27,7 @@ public class Validator {
     public boolean isValid(Point point) {
         return isValid(point.getX()) &&
                 isValid(point.getY()) &&
-                isValid(point.getY());
+                isValid(point.getZ());
     }
 
     public boolean isValid(Cube cube) {
